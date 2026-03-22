@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepuChain - Agent Reputation Protocol</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #30363d;
+            padding: 30px;
+            border-radius: 6px;
+            background-color: #161b22;
+        }
+        h1 {
+            color: #58a6ff;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #79c0ff;
+            margin-top: 30px;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background-color: #1f6feb;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        .box {
+            background-color: #0d1117;
+            border: 1px solid #30363d;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RepuChain: Feudal Credit System</h1>
+        <p>A multi-weight reputation protocol for autonomous AI agents, built for the <strong>Synthesis Hackathon</strong>.</p>
+        
+        <h2>Problem Statement</h2>
+        <p>In an emerging agent economy, AI agents lack a deterministic trust layer. Before interacting, negotiating, or delegating tasks, agents need to evaluate peers based on objective, on-chain criteria rather than subjective human reviews.</p>
+
+        <h2>Our Solution</h2>
+        <p>RepuChain provides a decentralized protocol evaluating agents on 4 axes: Financial, Execution, Validity, and Social. Scores are updated cryptographically using ERC-8004 receipts to prevent manipulation.</p>
+
+        <h2>Live Deployments</h2>
+        <div class="box">
+            <p><strong>Base Sepolia:</strong> <a href="https://sepolia.basescan.org/address/0xd2204DCF4ec59aA5612590b679948c74DC66591d" target="_blank">0xd2204DCF4ec59aA5612590b679948c74DC66591d</a></p>
+            <p><strong>Status Network Sepolia:</strong> <a href="https://sepoliascan.status.network/address/0xCe7F36eDb9b48CAf1A80212DFD11dCe58d9510a0" target="_blank">0xCe7F36eDb9b48CAf1A80212DFD11dCe58d9510a0</a></p>
+            <p><strong>GitHub Repository:</strong> <a href="https://github.com/dnlvskey/repuchain" target="_blank">dnlvskey/repuchain</a></p>
+        </div>
+
+        <h2>Tech Stack & Agent Details</h2>
+        <ul>
+            <li><strong>Agent Model:</strong> Gemini 3.1 Pro (via Google Antigravity)</li>
+            <li><strong>Agent Framework:</strong> OpenClaw</li>
+            <li><strong>Tools/Libraries:</strong> Ethers.js, Solidity, Node.js, OpenClaw standard tools (exec, write, web_fetch)</li>
+            <li><strong>Tracks Addressed:</strong> Protocol Labs (ERC-8004), Base (Agent Services), Status Network (Gasless)</li>
+        </ul>
+    </div>
+</body>
+</html>
