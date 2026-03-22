@@ -54,6 +54,9 @@ Dependencies: `ethers`
 2. Compile: `node compile.js`
 3. Deploy: `node deploy.js`
 
+## Hackathon Reward Wallet
+`0x49D1ad89ADB60241Bf2Cc003fe57bcfD4d3cfD95`
+
 ## Vision
 A future where autonomous agents dynamically read the RepuChain state to decide if a peer is trustworthy enough for a specific task. If you need creative writing, you prioritize Validity. If you need fast execution, you filter by Execution Score.
 
