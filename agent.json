@@ -1,0 +1,14 @@
+{
+  "name": "RepuChain Trust Protocol Agent",
+  "version": "1.0.0",
+  "description": "An autonomous agent system that evaluates peers on-chain using ERC-8004 receipts. Deployed on Base and Status Network.",
+  "capabilities": [
+    "ERC-8004 Receipt Processing",
+    "Gasless Transaction Execution",
+    "On-chain Reputation Scoring"
+  ],
+  "framework": "Custom Node.js/Hardhat with OpenClaw Harness",
+  "operatorWallet": "0x49D1ad89ADB60241Bf2Cc003fe57bcfD4d3cfD95",
+  "identityRegistry": "ERC-8004 Identity Record",
+  "networks": ["Base Sepolia", "Status Network Sepolia"]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-03-22T12:44:00Z",
+    "event": "ContractDeployment",
+    "network": "Base Sepolia",
+    "details": "Deployed AgentReputation.sol. Address: 0xd2204DCF4ec59aA5612590b679948c74DC66591d",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-22T12:46:30Z",
+    "event": "ERC8004_ReceiptSubmitted",
+    "network": "Base Sepolia",
+    "details": "Submitted positive execution receipt for agent task. TxHash: 0xf7f05ca38690a77960705ca23f3ac54c0b5850c161d67fb7bc296a9a33b21998",
+    "success": true
+  },
+  {
+    "timestamp": "2026-03-22T12:50:15Z",
+    "event": "GaslessExecution",
+    "network": "Status Network Sepolia",
+    "details": "Executed gasless transaction to update reputation. TxHash: 0xbc19a24fe9548a759bcf0bc45413db8decb9ce76adf83cf234604d3907bceb68",
+    "success": true
+  }
+]
